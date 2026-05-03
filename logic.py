@@ -5,9 +5,6 @@ from gui import *
 FILE = "votes.csv"
 
 class Logic:
-    """
-    handles the logic for voting
-    """
     def __init__(self, ui: Ui_MainWindow) -> None:
         """
         initialize the logic
